@@ -7,15 +7,15 @@ GEM
     cool.io (1.7.1)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    elasticsearch (7.17.1)
-      elasticsearch-api (= 7.17.1)
-      elasticsearch-transport (= 7.17.1)
-    elasticsearch-api (7.17.1)
+    elasticsearch (7.13.3)
+      elasticsearch-api (= 7.13.3)
+      elasticsearch-transport (= 7.13.3)
+    elasticsearch-api (7.13.3)
       multi_json
-    elasticsearch-transport (7.17.1)
+    elasticsearch-transport (7.13.3)
       faraday (~> 1)
       multi_json
-    elasticsearch-xpack (7.17.1)
+    elasticsearch-xpack (7.13.3)
       elasticsearch-api (>= 6)
     excon (0.92.4)
     faraday (1.10.0)
@@ -152,7 +152,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  elasticsearch (~> 7.0)
+  elasticsearch (= 7.13.3)
   elasticsearch-xpack (~> 7.0)
   ffi
   fluent-plugin-concat (~> 2.5.0)
